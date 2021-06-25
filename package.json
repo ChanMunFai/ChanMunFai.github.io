@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://munfai15.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/MUNFAI15/MUNFAI15.github.io"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
