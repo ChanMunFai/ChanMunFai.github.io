@@ -6,14 +6,9 @@ import dayjs from 'dayjs';
  */
 const data = [
   {
-    label: 'Open github issues',
-    key: 'open_issues_count',
-    link: 'https://github.com/mldangelo/personal-site/issues',
-  },
-  {
     label: 'Last updated at',
     key: 'pushed_at',
-    link: 'https://github.com/mldangelo/personal-site/commits',
+    link: 'https://github.com/MUNFAI15/MUNFAI15.github.io/commits',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
   {
@@ -22,7 +17,7 @@ const data = [
     xargs -I file cat file | wc -l */
     label: 'Lines of Javascript powering this website',
     value: '2115',
-    link: 'https://github.com/mldangelo/personal-site/graphs/contributors',
+    link: 'https://github.com/MUNFAI15/MUNFAI15.github.io/graphs/contributors',
   },
 ];
 
