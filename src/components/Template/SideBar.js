@@ -19,8 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;am Mun Fai. Welcome to my website!
-        I am a <a href="https://icme.stanford.edu/">LSE BSc</a> undergraduate.
+      <p>Hi, I am Mun Fai! Mun rhymes with &apos;bun&apos; and Fai as in the Greek letter &Phi;.
       </p>
       <ul className="actions">
         <li>
