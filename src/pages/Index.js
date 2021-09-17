@@ -23,7 +23,7 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p>I am not a web developer, so all credits for the website design go to <a href="https://github.com/mldangelo/personal-site/"> Michael D Angelo.</a></p>
+      <p>All credits for the website design go to <a href="https://github.com/mldangelo/personal-site/"> Michael D Angelo.</a></p>
     </article>
   </Main>
 );

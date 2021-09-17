@@ -10,18 +10,6 @@ const data = [
       'Trained a convolutional neural network (ResNet-34) to classify animals in SEA. '
       + 'Attained SOTA level of accuracy(93%) using techniques like image augmentation and cyclic learning rates.',
   },
-
-  {
-    title: 'Aquarium Animal Detector',
-    link: 'google.com',
-    subtitle: 'A convolutional neural network to classify images in  Aquarium',
-    image: '/images/projects/catdetector.jpg',
-    date: '2020-06-01',
-    desc:
-      'Trained a convolutional neural network (ResNet-34) to classify animals in SEA '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
-  },
 ];
 
 export default data;
