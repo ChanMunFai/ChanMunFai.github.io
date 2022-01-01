@@ -1,13 +1,20 @@
 
 # Intro
 
-<p>Hey! I am from Singapore and I have been studying in the UK in the last 3 years. I am a Public Service Commission scholar and will serve in the public service for 6 years upon graduation.</p>
+Hey! I am from Singapore and I have been studying in the UK in the last 3/4 years. I graduated with a BSc in Econometrics and Mathematical Economics(EME) at the London School of Economics(LSE) in July 2021, and am undertaking an MSc in Artificial Intelligence at Imperial College London from October 2021 to September 2022. As a Public Service Commission scholar, I will return back to the Singapore public service upon graduation and hope to contribute my skills towards the technological scene back home.
 
-<p>I graduated with a BSc in Econometrics and Mathematical Economics(EME) at the London School of Economics(LSE) in July 2021. As an aspiring data scientist, I fopcused on multiple courses in econometrics and statistics. I will proceed to embark on a MSc Artificial Intelligence degree at Imperial College London in October 2021. </p>
 
-# My journey into Data Science
+Prior to university, I was a Transport Officer in the Singapore Armed Forces. There, I organised various high stakes events including live-firing exercises and a battalion-wide event for over 300 men. I was also representative for the Transport formation (over 2000 men) by being the parade colours flag bearer. In university, I continued to hone and demonstrate my leadership skills as the President of Students for Children (charity) Society and the Head of Projects at LSE Data Science Society.
 
-<p> My stumbling into machine learning and tech has been rather accidental and self-directed, hence it will be cool to share a little bit about this. </p>
+
+My academic interests lie at the intersection of econometrics and machine learning. In particular, my dissertation explored frontier methods to infer causality using ML techniques, a major improvement over traditional econonometric methods which struggle with high-dimensional data. Currently, as part of my Masters in AI, I am exploring various fields of AI including computer vision, NLP, reinforcement learning and even robot learning and control(a new subfield incorporating the use of ML in robots)! I also have extensive  experience in Statistics, having completed an intership at Singapore Department of Statistics on differential privacy and undertaken multiple Stats courses in LSE including machine learning and Bayesian statistics.
+
+
+Outside of football, I enjoy travelling, hiking as well as football (both watching and playing).
+
+# My accidental journey into Data Science
+
+<p>My stumbling into machine learning and tech has been rather accidental and self-directed, hence it will be cool to share a little bit about this.</p>
 
 - I first learnt and even heard about data science in June 2018 where I had the privilege to enrol in iXperience Summer School in Cape Town, South Africa. Funny thing was that I had initially signed up for a full-stack coding course(with absolutely no idea what that meant!), did some HTML and Javascript pre-course assignments and did not understand the first 2 hours of my first class. Hence, my friend (who is incredibly smart as he hails from Harvard) and I dropped out into the supposedly easier Data Science class.
 

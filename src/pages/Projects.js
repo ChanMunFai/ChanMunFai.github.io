@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
+import raw from 'raw.macro';
 
 import Main from '../layouts/Main';
 
@@ -8,6 +10,11 @@ import olddata from '../data/old_projects';
 import lsedata from '../data/lse_projects';
 import cmfdata from '../data/cmf';
 import thesisdata from '../data/lse_thesis';
+
+const markdown = raw('../data/abstract.md');
+
+// Make all hrefs react router links
+const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const Projects = () => (
   <Main
@@ -24,7 +31,25 @@ const Projects = () => (
 
       <div className="subtitle">
         <h2 data-testid="heading">Best Projects</h2>
-        <p>Some other projects, which I will categorise further.</p>
+
+        <h3>1. Undergraduate Thesis  </h3>
+
+        {thesisdata.map((project) => (
+          <Cell
+            data={project}
+            key={project.title}
+          />
+        ))}
+
+        <ReactMarkdown
+          source={markdown}
+          renderers={{
+            Link: LinkRenderer,
+          }}
+          escapeHtml={false}
+        />
+
+        <h3>2. Comparative Metrics Framework </h3>
 
         {cmfdata.map((project) => (
           <Cell
@@ -35,14 +60,6 @@ const Projects = () => (
 
         <p>Here is some filler text to describe more on the cmf package.</p>
 
-        {thesisdata.map((project) => (
-          <Cell
-            data={project}
-            key={project.title}
-          />
-        ))}
-
-        <p>Here is some filler text to describe more on the cmf package.</p>
       </div>
 
       <div className="subtitle_lse">

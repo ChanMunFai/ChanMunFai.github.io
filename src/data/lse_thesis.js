@@ -2,12 +2,11 @@
 const data = [
   {
     title: 'LSE Thesis',
-    link: 'https://github.com/MUNFAI15/cmf',
-    subtitle: 'cmf',
-    image: '/images/projects/cmf.png',
+    link: 'https://drive.google.com/drive/folders/17xfvU9fRo_eDXHVSFtE_s6bcrXoKf2Iw?usp=sharing',
+    subtitle: 'genericml',
+    image: '/images/projects/genericml.png',
     date: '2021-05-01',
-    desc:
-      'Clearly my proudest work so far since I have spent a whole year on it & have never written so many words for a piece before :)',
+    desc: 'Thesis at interesection of econometrics and ML.',
   },
 ];
 
