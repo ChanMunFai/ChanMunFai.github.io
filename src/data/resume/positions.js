@@ -2,17 +2,18 @@ const positions = [
   {
     company: 'London School of Economics and Political Science(LSE)',
     position: 'Research Assistant',
-    daterange: 'January 2021 - Present',
+    daterange: 'January 2021 - September 2021',
     points: [
       'RA to Ethan Ilzetzki, Associate Professor at LSE and Centre of Macroeconomics',
       'Assisted with data analysis',
       'Ran and wrote code for value iteration functions in Matlab and Python',
+      'Created data engineering pipeline to clean and extract historical data using Selenium and regex.',
     ],
   },
   {
     company: 'London School of Economics and Political Science(LSE)',
     position: 'Coach, Python for Economics Week',
-    daterange: 'Feb 2021 - Feb 2021',
+    daterange: 'Feb 2021 - Feb 2021', 'Feb 2022 - Feb 2022',
     points: [
       'Provided guidance to LSE economics undergraduates in writing code for the Schelling model',
     ],
