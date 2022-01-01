@@ -21,6 +21,8 @@ const SideBar = () => (
       <h2>About</h2>
       <p>Hi, I am Mun Fai! Mun rhymes with &apos;bun&apos; and Fai as in the Greek letter &Phi;.
       </p>
+      <p>I am currently a MSc in Artificial Intelligence student at Imperial College London.
+      </p>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}

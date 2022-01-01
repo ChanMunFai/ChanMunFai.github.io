@@ -8,10 +8,26 @@ import Main from '../layouts/Main';
 import Cell from '../components/Projects/Cell';
 import olddata from '../data/old_projects';
 import lsedata from '../data/lse_projects';
+import imperialdata from '../data/imperial_projects';
 import cmfdata from '../data/cmf';
 import thesisdata from '../data/lse_thesis';
 
 const markdown = raw('../data/abstract.md');
+const notes = raw('../data/notes.md');
+
+// Code for creating links but I can't do it properly
+// const sections = [
+// 'Best Projects',
+// 'Imperial Projects',
+// 'LSE Projects',
+// 'Old Projects',];
+
+// <div className="link-container">
+// {sections.map((sec) => (
+// <h4 key={sec}>
+// <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+// </h4>))}
+// </div>
 
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
@@ -49,7 +65,7 @@ const Projects = () => (
           escapeHtml={false}
         />
 
-        <h3>2. Comparative Metrics Framework </h3>
+        <h3>2. R package (Internship) </h3>
 
         {cmfdata.map((project) => (
           <Cell
@@ -58,9 +74,18 @@ const Projects = () => (
           />
         ))}
 
-        <p>Here is some filler text to describe more on the cmf package.</p>
-
       </div>
+
+      <div className="subtitle_imperial">
+        <h2 data-testid="heading">Imperial Projects</h2>
+      </div>
+
+      {imperialdata.map((project) => (
+        <Cell
+          data={project}
+          key={project.title}
+        />
+      ))}
 
       <div className="subtitle_lse">
         <h2 data-testid="heading">LSE Projects</h2>
@@ -85,6 +110,14 @@ const Projects = () => (
           key={project.title}
         />
       ))}
+
+      <ReactMarkdown
+        source={notes}
+        renderers={{
+          Link: LinkRenderer,
+        }}
+        escapeHtml={false}
+      />
 
     </article>
   </Main>

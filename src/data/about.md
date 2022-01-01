@@ -2,13 +2,13 @@
 
 Hey! I am from Singapore and I have been studying in the UK in the last 3/4 years. I graduated with a BSc in Econometrics and Mathematical Economics(EME) at the London School of Economics(LSE) in July 2021, and am undertaking an MSc in Artificial Intelligence at Imperial College London from October 2021 to September 2022. As a Public Service Commission scholar, I will return back to the Singapore public service upon graduation and hope to contribute my skills towards the technological scene back home.
 
-## Leadership Ability
+# Leadership Ability
 Prior to university, I was a Transport Officer in the Singapore Armed Forces. There, I organised various high stakes events including live-firing exercises and a battalion-wide event for over 300 men. I was also representative for the Transport formation (over 2000 men) by being the parade colours flag bearer. In university, I continued to hone and demonstrate my leadership skills as the President of Students for Children (charity) Society and the Head of Projects at LSE Data Science Society.
 
-## Academic and Research interests
+# Academic and Research interests
 My academic interests lie at the intersection of econometrics and machine learning. In particular, my dissertation explored frontier methods to infer causality using ML techniques, a major improvement over traditional econonometric methods which struggle with high-dimensional data. Currently, as part of my Masters in AI, I am exploring various fields of AI including computer vision, NLP, reinforcement learning and even robot learning and control(a new subfield incorporating the use of ML in robots)! I also have extensive  experience in Statistics, having completed an intership at Singapore Department of Statistics on differential privacy and undertaken multiple Stats courses in LSE including machine learning and Bayesian statistics.
 
-## Hobbies
+# Hobbies
 Outside of football, I enjoy travelling, hiking as well as football (both watching and playing).
 
 # My accidental journey into Data Science

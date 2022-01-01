@@ -1,6 +1,6 @@
  <ul>
     <li>Best dissertation in cohort(76%).</li>
-    <li>Presented findings at LSE Interdisciplinary Conference 2020.</li>
+    <li>Presented findings at [LSE Interdisciplinary Conference 2020](https://info.lse.ac.uk/current-students/student-futures/student-research-conference).</li>
     <li>Wrote code for generic ML (think of this as a fancy ML algorithm that infers causality)from scratch in Python. Massive performance boost compared to original R code.</li>
     <li>Utilised High Performance Computing (HPC) to perform Monte Carlo simulation </li>
     <li>Applied Generic ML to pre-existing study to discover flaws with traditional heterogeneity analysis and to generate new insights </li>
