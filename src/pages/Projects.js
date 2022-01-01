@@ -6,6 +6,8 @@ import Main from '../layouts/Main';
 import Cell from '../components/Projects/Cell';
 import olddata from '../data/old_projects';
 import lsedata from '../data/lse_projects';
+import cmfdata from '../data/cmf';
+import thesisdata from '../data/lse_thesis';
 
 const Projects = () => (
   <Main
@@ -19,6 +21,29 @@ const Projects = () => (
           <p>A whole range of projects that I have done at various stages in my life.</p>
         </div>
       </header>
+
+      <div className="subtitle">
+        <h2 data-testid="heading">Best Projects</h2>
+        <p>Some other projects, which I will categorise further.</p>
+
+        {cmfdata.map((project) => (
+          <Cell
+            data={project}
+            key={project.title}
+          />
+        ))}
+
+        <p>Here is some filler text to describe more on the cmf package.</p>
+
+        {thesisdata.map((project) => (
+          <Cell
+            data={project}
+            key={project.title}
+          />
+        ))}
+
+        <p>Here is some filler text to describe more on the cmf package.</p>
+      </div>
 
       <div className="subtitle_lse">
         <h2 data-testid="heading">LSE Projects</h2>
