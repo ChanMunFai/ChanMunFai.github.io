@@ -13,7 +13,7 @@ const positions = [
   {
     company: 'London School of Economics and Political Science(LSE)',
     position: 'Coach, Python for Economics Week',
-    daterange: 'Feb 2021 - Feb 2021', 'Feb 2022 - Feb 2022',
+    daterange: 'Feb 2021 - Feb 2021; Feb 2022 - Feb 2022',
     points: [
       'Provided guidance to LSE economics undergraduates in writing code for the Schelling model',
     ],
