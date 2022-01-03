@@ -13,7 +13,6 @@ import cmfdata from '../data/cmf';
 import thesisdata from '../data/lse_thesis';
 
 const markdown = raw('../data/abstract.md');
-const notes = raw('../data/notes.md');
 
 // Code for creating links but I can't do it properly
 // const sections = [
@@ -110,14 +109,6 @@ const Projects = () => (
           key={project.title}
         />
       ))}
-
-      <ReactMarkdown
-        source={notes}
-        renderers={{
-          Link: LinkRenderer,
-        }}
-        escapeHtml={false}
-      />
 
     </article>
   </Main>
