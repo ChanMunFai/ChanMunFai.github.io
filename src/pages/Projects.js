@@ -35,7 +35,7 @@ const Projects = () => (
       </header>
 
       <div className="subtitle">
-        <h2 data-testid="heading">Best Projects</h2>
+        <h2 data-testid="heading2">Best Projects</h2>
 
         <h3>1. Masters Thesis  </h3>
 
@@ -100,7 +100,7 @@ const Projects = () => (
       </div>
 
       <div className="subtitle_imperial">
-        <h2 data-testid="heading">Masters Projects</h2>
+        <h2 data-testid="heading3">Masters Projects</h2>
         <p>Projects I have done in Imperial.</p>
       </div>
 
@@ -112,7 +112,7 @@ const Projects = () => (
       ))}
 
       <div className="subtitle_lse">
-        <h2 data-testid="heading">Undergraduate Projects</h2>
+        <h2 data-testid="heading4">Undergraduate Projects</h2>
         <p>Projects I have done in LSE.</p>
       </div>
 
@@ -124,7 +124,7 @@ const Projects = () => (
       ))}
 
       <div className="subtitle_old">
-        <h2 data-testid="heading">Old Projects Dump</h2>
+        <h2 data-testid="heading5">Old Projects Dump</h2>
         <p>Some old and embarrassing projects that I have done a few years back.</p>
       </div>
 
