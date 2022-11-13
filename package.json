@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://munfai15.github.io",
+  "homepage": "https://chanmunfai.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://chanmunfai.github.io"
   },
   "engines": {
     "node": ">=14.x"
