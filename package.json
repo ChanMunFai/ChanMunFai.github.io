@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "chanmunfai.github.io",
+  "homepage": "https://chanmunfai.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "chanmunfai.github.io"
+    "url": "https://github.com/chanmunfai.github.io.git"
   },
   "engines": {
     "node": ">=14.x"
