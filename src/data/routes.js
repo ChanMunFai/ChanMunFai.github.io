@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: 'Mun Fai',
+    label: 'Mun Fai 文辉',
     path: '/',
   },
   {
