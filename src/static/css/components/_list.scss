@@ -7,7 +7,7 @@
 /* List */
 
 	ol {
-		list-style: decimal;
+		list-style: square;
 		margin: 0 0 _size(element-margin) 0;
 		padding-left: 1.25em;
 
@@ -17,7 +17,7 @@
 	}
 
 	ul {
-		list-style: disc;
+		list-style: square;
 		margin: 0 0 _size(element-margin) 0;
 		padding-left: 1em;
 

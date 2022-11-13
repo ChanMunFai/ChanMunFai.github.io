@@ -6,17 +6,17 @@ import raw from 'raw.macro';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import oldData from '../data/old_projects';
-import lseData from '../data/lse_projects';
-import imperialData from '../data/imperial_projects';
-import cmfData from '../data/cmf';
-import thesisData from '../data/lse_thesis';
-import imperialThesis from '../data/imperial_thesis';
-import imperialGroup from '../data/imperial_group';
+import oldData from '../data/projects/old_projects';
+import lseData from '../data/projects/lse_projects';
+import imperialData from '../data/projects/imperial_projects';
+import cmfData from '../data/projects/cmf';
+import thesisData from '../data/projects/lse_thesis';
+import imperialThesis from '../data/projects/imperial_thesis';
+import imperialGroup from '../data/projects/imperial_group';
 
-const lseAbstract = raw('../data/lse_abstract.md');
-const hkvaeAbstract = raw('../data/hkvae_abstract.md');
-const sslAbstract = raw('../data/ssl_abstract.md');
+const lseAbstract = raw('../data/projects/lse_abstract.md');
+const hkvaeAbstract = raw('../data/projects/hkvae_abstract.md');
+const sslAbstract = raw('../data/projects/ssl_abstract.md');
 
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
