@@ -45,17 +45,17 @@ const skills = [
     category: ['Statistics'],
   },
   {
-    title: 'MA100',
+    title: 'MA100 Mathematical Methods',
     competency: 75,
     category: ['Mathematics'],
   },
   {
-    title: 'EC102',
+    title: 'EC102 Economics B',
     competency: 70,
     category: ['Economics'],
   },
   {
-    title: 'ST102',
+    title: 'ST102 Elementary Statistical Theory',
     competency: 90,
     category: ['Statistics'],
   },
