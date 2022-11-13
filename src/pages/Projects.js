@@ -6,27 +6,17 @@ import raw from 'raw.macro';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import olddata from '../data/old_projects';
-import lsedata from '../data/lse_projects';
-import imperialdata from '../data/imperial_projects';
-import cmfdata from '../data/cmf';
-import thesisdata from '../data/lse_thesis';
+import oldData from '../data/old_projects';
+import lseData from '../data/lse_projects';
+import imperialData from '../data/imperial_projects';
+import cmfData from '../data/cmf';
+import thesisData from '../data/lse_thesis';
+import imperialThesis from '../data/imperial_thesis';
+import imperialGroup from '../data/imperial_group';
 
-const markdown = raw('../data/abstract.md');
-
-// Code for creating links but I can't do it properly
-// const sections = [
-// 'Best Projects',
-// 'Imperial Projects',
-// 'LSE Projects',
-// 'Old Projects',];
-
-// <div className="link-container">
-// {sections.map((sec) => (
-// <h4 key={sec}>
-// <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-// </h4>))}
-// </div>
+const lseAbstract = raw('../data/lse_abstract.md');
+const hkvaeAbstract = raw('../data/hkvae_abstract.md');
+const sslAbstract = raw('../data/ssl_abstract.md');
 
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
@@ -47,9 +37,9 @@ const Projects = () => (
       <div className="subtitle">
         <h2 data-testid="heading">Best Projects</h2>
 
-        <h3>1. Undergraduate Thesis  </h3>
+        <h3>1. Masters Thesis  </h3>
 
-        {thesisdata.map((project) => (
+        {imperialThesis.map((project) => (
           <Cell
             data={project}
             key={project.title}
@@ -57,7 +47,41 @@ const Projects = () => (
         ))}
 
         <ReactMarkdown
-          source={markdown}
+          source={hkvaeAbstract}
+          renderers={{
+            Link: LinkRenderer,
+          }}
+          escapeHtml={false}
+        />
+
+        <h3>2. Masters Project  </h3>
+
+        {imperialGroup.map((project) => (
+          <Cell
+            data={project}
+            key={project.title}
+          />
+        ))}
+
+        <ReactMarkdown
+          source={sslAbstract}
+          renderers={{
+            Link: LinkRenderer,
+          }}
+          escapeHtml={false}
+        />
+
+        <h3>3. Undergraduate Thesis  </h3>
+
+        {thesisData.map((project) => (
+          <Cell
+            data={project}
+            key={project.title}
+          />
+        ))}
+
+        <ReactMarkdown
+          source={lseAbstract}
           renderers={{
             Link: LinkRenderer,
           }}
@@ -66,7 +90,7 @@ const Projects = () => (
 
         <h3>2. R package (Internship) </h3>
 
-        {cmfdata.map((project) => (
+        {cmfData.map((project) => (
           <Cell
             data={project}
             key={project.title}
@@ -76,10 +100,11 @@ const Projects = () => (
       </div>
 
       <div className="subtitle_imperial">
-        <h2 data-testid="heading">Imperial Projects</h2>
+        <h2 data-testid="heading">Masters Projects</h2>
+        <p>Projects I have done in Imperial.</p>
       </div>
 
-      {imperialdata.map((project) => (
+      {imperialData.map((project) => (
         <Cell
           data={project}
           key={project.title}
@@ -87,11 +112,11 @@ const Projects = () => (
       ))}
 
       <div className="subtitle_lse">
-        <h2 data-testid="heading">LSE Projects</h2>
+        <h2 data-testid="heading">Undergraduate Projects</h2>
         <p>Projects I have done in LSE.</p>
       </div>
 
-      {lsedata.map((project) => (
+      {lseData.map((project) => (
         <Cell
           data={project}
           key={project.title}
@@ -103,7 +128,7 @@ const Projects = () => (
         <p>Some old and embarrassing projects that I have done a few years back.</p>
       </div>
 
-      {olddata.map((project) => (
+      {oldData.map((project) => (
         <Cell
           data={project}
           key={project.title}
