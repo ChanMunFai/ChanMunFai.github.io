@@ -2,7 +2,7 @@
 const data = [
   {
     title: 'PUBG Finish Placement Prediction',
-    link: 'https://github.com/MUNFAI15/PUBG-Finish-Placement-Prediction',
+    link: 'https://github.com/ChanMunFai/PUBG-Finish-Placement-Prediction',
     subtitle: 'PUBG Prediction',
     image: '/images/projects/pubg.jpg',
     date: '2020-07-01',

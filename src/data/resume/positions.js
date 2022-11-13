@@ -30,7 +30,7 @@ const positions = [
   },
   {
     company: 'Singapore Department of Statistics',
-    link: 'https://github.com/MUNFAI15/cmf',
+    link: 'https://github.com/ChanMunFai/cmf',
     position: 'Intern',
     daterange: 'July 2020 - Sep 2020',
     points: [

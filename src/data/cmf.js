@@ -2,7 +2,7 @@
 const data = [
   {
     title: 'R package to compare between synthetic datasets',
-    link: 'https://github.com/MUNFAI15/cmf',
+    link: 'https://github.com/ChanMunFai/cmf',
     subtitle: 'cmf',
     image: 'images/projects/cmf2.png',
     date: '2021-05-01',
