@@ -47,3 +47,6 @@ build/
 
 # Nohup
 nohup.out
+
+# Archived files
+src/pages/archive-about 
