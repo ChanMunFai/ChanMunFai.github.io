@@ -41,6 +41,8 @@ const Resume = () => (
 
         </div>
       </header>
+      <a href="ChanMunFai.github.io/files/resume.pdf" target="_blank">PDF.</a>
+      
       <Education data={degrees} />
       <Experience data={positions} />
       <Skills skills={skills} categories={categories} />
