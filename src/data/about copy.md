@@ -1,0 +1,39 @@
+# Intro
+
+Hey! I am from Singapore and I have been studying in the UK in the last 3/4 years. I graduated with a BSc in Econometrics and Mathematical Economics(EME) at the London School of Economics(LSE) in July 2021, and am undertaking an MSc in Artificial Intelligence at Imperial College London from October 2021 to September 2022. As a Public Service Commission scholar, I will return back to the Singapore public service upon graduation and hope to contribute my skills towards the technological scene back home.
+
+# Leadership Ability
+Prior to university, I was a Transport Officer in the Singapore Armed Forces. There, I organised various high stakes events including live-firing exercises and a battalion-wide event for over 300 men. I was also representative for the Transport formation (over 2000 men) by being the parade colours flag bearer. In university, I continued to hone and demonstrate my leadership skills as the President of Students for Children (charity) Society and the Head of Projects at LSE Data Science Society.
+
+# Academic and Research interests
+My academic interests lie at the intersection of econometrics and machine learning. In particular, my dissertation explored frontier methods to infer causality using ML techniques, a major improvement over traditional econonometric methods which struggle with high-dimensional data. Currently, as part of my Masters in AI, I am exploring various fields of AI including computer vision, NLP, reinforcement learning and even robot learning and control(a new subfield incorporating the use of ML in robots)! I also have extensive  experience in Statistics, having completed an intership at Singapore Department of Statistics on differential privacy and undertaken multiple Stats courses in LSE including machine learning and Bayesian statistics.
+
+# Hobbies
+Outside of football, I enjoy travelling, hiking as well as football (both watching and playing).
+
+# My accidental journey into Data Science
+
+I had never even heard of data science and ML when I first enrolled into university for my Economics degree, but here I am doing a Masters in Artificial Intelligence.
+
+-  First heard about data science in June 2018 where I had the privilege to enrol in iXperience Summer School in Cape Town, South Africa. Funny thing was that I had initially signed up for a full-stack coding course(with absolutely no idea what that meant!), did some HTML and Javascript pre-course assignments and did not understand the first 2 hours of my first class. Hence, my friend and I dropped out into the supposededly easier Data Science class.
+
+- Here, I realised the close similarity between data science and Economics. I grasped the statistical component of it easily due to the courses I had already taken in school. Learnt fundamental programming skills in R and even had the chance to embark on a 4-week internship at Quicket which foucsed primarily on data visualisation.
+
+- Returning back to school in Autumn 2018, I focused heavily on the "theoretical" and more "math-heavy" sides of data science. I chose an intermediate fundamental statistics course ST202 as well as a near graduate level Econometrics course EC221. The latter course involved extensive usage of linear algebra to prove the Gauss-Markov assumptions for linear regression and provides a solid foundation into the applied usage of linear algebra. I attained high Firsts for both courses, and even attained the 3rd highest grade for EC221.
+
+- My programming skills improved substantially in summer 2019. I spent months completing online Machine Learning courses, such as the Machine Learning and Deep Learning specialisations by Andrew Ng. Concurrently, I also enrolled in Fastai's course and this gave me much practical experience with regards to actual deep learning projects. For instance, I created an animal classifier that attained near state-of-the-art accuracy and rendered it on a website (though I have to eventually take it down after a first month free trial for the server). Apart from the ML and deep learning knowledge, I also gained much experience with deep learning libraies such as Tensorflow and Pytorch.
+
+- I undertook a 3 month internship with the Singapore Department of Statistics. There, I finally appreciate the power of programming as being a tool to solve problems, including problems that were previously unsolved. I was tasked to research on the best way to generate synthetic data, an esoteric field with scarce literature yet growing importance in the real world. At first daunted by the dearth of information on this, I decided to create my own framework that systematically evaluates the quality of synthetic data - along the lines of accuracy and confidentiality. I painstakingly navigated through advanced mathematical research papers and coded various mathematical functions into R functions, before compiling them into an R package. Besides contributing to this literature, I discovered new ways to expedite the synthesis process from hours to just mere minutes without significantly compromising the quality of synthetic data.
+
+- In my final year at the LSE, I decided to use my programming and ML skills for good as I sought to mentor and empower other like-minded individuals. I became the Head of Projects at LSE Data Science Society and single-handedly led and supervised 11 data science teams in both Michaelmas and Lent term. I also took on a paid job to become a coach for LSE Python for Economics week, a programme designed to develop Python skills for Economics undergraduates.
+
+- Took on part time work as a RA to Dr. Ethan Ilzetzki. Made good use of my programming skills to aid in data visualisation (Stata, R, Python), perform data engineering work (extracting data from images of old distorical data using Selenium and Regex) and some computational econonmic analysis (modelling of value iteration/ dynamic programming models in Python).
+
+- Enrolled in Masters in Artificial Intelligence at Imperial College.
+
+
+
+
+
+
+
