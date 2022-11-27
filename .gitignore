@@ -54,4 +54,4 @@ data/about-copy.md
 
 # New experimental files
 src/static/css/components/_abstract.scss
-src/Projects/Abstract.js
+src/components/Projects/Abstract.js
