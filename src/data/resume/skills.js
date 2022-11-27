@@ -2,79 +2,137 @@ const skills = [
   {
     title: 'ST310 Machine Learning',
     competency: 90,
-    category: ['Statistics', 'Data Science'],
+    category: ['Bachelors'],
   },
   {
     title: 'ST308 Bayesian Inference',
     competency: 79,
-    category: ['Statistics'],
+    category: ['Bachelors'],
   },
   {
     title: 'MA231 Operations Research',
     competency: 93,
-    category: ['Mathematics'],
+    category: ['Bachelors'],
   },
   {
     title: 'EC331 Quantitative Thesis',
     competency: 76,
-    category: ['Data Science', 'Economics', 'Econometrics'],
+    category: ['Bachelors'],
   },
   {
     title: 'EC333 Problems of Applied Econometrics',
     competency: 66,
-    category: ['Economics', 'Econometrics'],
+    category: ['Bachelors'],
   },
   {
     title: 'EC221 Principles of Econometrics',
     competency: 80,
-    category: ['Economics', 'Econometrics'],
+    category: ['Bachelors'],
   },
   {
     title: 'EC201 Microeconomics',
     competency: 76,
-    category: ['Economics'],
+    category: ['Bachelors'],
   },
   {
     title: 'EC210 Macroeconomics',
     competency: 77,
-    category: ['Economics'],
+    category: ['Bachelors'],
   },
   {
     title: 'ST202 Probability, Distribution Theory and Inference',
     competency: 79,
-    category: ['Statistics'],
+    category: ['Bachelors'],
   },
   {
     title: 'MA100 Mathematical Methods',
     competency: 75,
-    category: ['Mathematics'],
+    category: ['Bachelors'],
   },
   {
     title: 'EC102 Economics B',
     competency: 70,
-    category: ['Economics'],
+    category: ['Bachelors'],
   },
   {
     title: 'ST102 Elementary Statistical Theory',
     competency: 90,
-    category: ['Statistics'],
+    category: ['Bachelors'],
+  },
+  {
+    title: 'Machine Learning',
+    competency: 89.23,
+    category: ['Masters'],
+  },
+  {
+    title: 'Reinforcement Learning',
+    competency: 73.42,
+    category: ['Masters'],
+  },
+  {
+    title: 'Symbolic Artificial Intelligence',
+    competency: 81.59,
+    category: ['Masters'],
+  },
+  {
+    title: 'Computer Vision',
+    competency: 75.4,
+    category: ['Masters'],
+  },
+  {
+    title: 'Deep Learning',
+    competency: 74.56,
+    category: ['Masters'],
+  },
+  {
+    title: 'Natural Language Processing',
+    competency: 70,
+    category: ['Masters'],
+  },
+  {
+    title: 'Robot Learning and Control',
+    competency: 67.88,
+    category: ['Masters'],
+  },
+  {
+    title: 'Software Engineering Practice and Group Project',
+    competency: 76.78,
+    category: ['Masters'],
+  },
+  {
+    title: 'Ethics, Privacy, AI in Society',
+    competency: 81.81,
+    category: ['Masters'],
+  },
+  {
+    title: 'Python Programming',
+    competency: 80.25,
+    category: ['Masters'],
+  },
+  {
+    title: 'Masters Dissertation',
+    competency: 76.0,
+    category: ['Masters'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be == to the
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
-  '#6968b3',
+  '#F88379',
+  '#bf40bf',
+  '#30D5C8',
+  '#64cb7b',
   '#37b1f5',
-  '#40494e',
-  '#515dd4',
-  '#e47272',
-  '#cc7b94',
   '#3896e2',
+  '#515dd4',
   '#c3423f',
   '#d75858',
+  '#e47272',
+  '#40494e',
+  '#6968b3',
+  '#cc7b94',
   '#747fff',
-  '#64cb7b',
 ];
 
 const categories = [
