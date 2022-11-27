@@ -50,3 +50,8 @@ nohup.out
 
 # Archived files
 src/pages/archive-about 
+data/about-copy.md
+
+# New experimental files
+src/static/css/components/_abstract.scss
+src/Projects/Abstract.js
