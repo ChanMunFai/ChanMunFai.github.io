@@ -28,7 +28,7 @@ jobs:
     - name: Lint
       run: npm run lint
     - name: Build and Statically Render
-      run: npm run build
+      run: npm run predeploy
       env:
         NODE_ENV: development
     - name: Test
