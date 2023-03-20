@@ -61,7 +61,21 @@
 		}
 	}
 
-	.skills {
+	.certs {
+		padding-top: 1.6em;
+		.title {
+			text-align: center;
+		}
+		.course-list {
+			text-align: center;
+
+			h4 {
+				white-space: nowrap;
+			}
+		}
+	}
+
+	.grades {
 		margin-top: 2em;
 		.title {
 			text-align: center;
@@ -132,3 +146,36 @@
 		display: block;
 	}
 }
+
+.certs .course-number {
+	display: inline;
+}
+.certs .course-name {
+	display: inline;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  margin-top: -1em;
+  text-transform: uppercase;
+}
+
+.certs ul li{
+  display: inline;
+}
+
+.certs-dot {
+	display: inline;
+	// display: none;
+}
+
+@include breakpoint(small) {
+	.certifications-dot {
+		display: none;
+	}
+	.certs-container a{
+		display: block;
+	}
+}
+

@@ -4,18 +4,18 @@ import PropTypes from 'prop-types';
 import CategoryButton from './Skills/CategoryButton';
 import SkillBar from './Skills/SkillBar';
 
-const handleProps = ({ categories, skills }) => ({
+const handleProps = ({ categories, grades }) => ({
   buttons: categories.map((cat) => cat.name).reduce((obj, key) => ({
     ...obj,
     [key]: false,
   }), { All: true }),
-  skills,
+  grades,
 });
 
-class Skills extends Component {
+class Grades extends Component {
   constructor(props) {
     super(props);
-    this.state = handleProps({ categories: props.categories, skills: props.skills });
+    this.state = handleProps({ categories: props.categories, grades: props.grades });
   }
 
   getRows() {
@@ -24,7 +24,7 @@ class Skills extends Component {
       this.state.buttons[key] ? key : cat
     ), 'All');
 
-    return this.state.skills.sort((a, b) => {
+    return this.state.grades.sort((a, b) => {
       let ret = 0;
       if (a.competency > b.competency) ret = -1;
       else if (a.competency < b.competency) ret = 1;
@@ -33,12 +33,12 @@ class Skills extends Component {
       else if (a.title > b.title) ret = 1;
       else if (a.title < b.title) ret = -1;
       return ret;
-    }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
-      .map((skill) => (
+    }).filter((grade) => (actCat === 'All' || grade.category.includes(actCat)))
+      .map((grade) => (
         <SkillBar
           categories={this.props.categories}
-          data={skill}
-          key={skill.title}
+          data={grade}
+          key={grade.title}
         />
       ));
   }
@@ -69,8 +69,8 @@ class Skills extends Component {
 
   render() {
     return (
-      <div className="skills">
-        <div className="link-to" id="skills" />
+      <div className="grades">
+        <div className="link-to" id="grades" />
         <div className="title">
           <h3>University Grades</h3>
         </div>
@@ -85,8 +85,8 @@ class Skills extends Component {
   }
 }
 
-Skills.propTypes = {
-  skills: PropTypes.arrayOf(PropTypes.shape({
+Grades.propTypes = {
+  grades: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
     competency: PropTypes.number,
     category: PropTypes.arrayOf(PropTypes.string),
@@ -97,9 +97,9 @@ Skills.propTypes = {
   })),
 };
 
-Skills.defaultProps = {
-  skills: [],
+Grades.defaultProps = {
+  grades: [],
   categories: [],
 };
 
-export default Skills;
+export default Grades;

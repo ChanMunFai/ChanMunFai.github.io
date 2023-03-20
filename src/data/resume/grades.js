@@ -1,4 +1,4 @@
-const skills = [
+const grades = [
   {
     title: 'ST310 Machine Learning',
     competency: 90,
@@ -114,7 +114,7 @@ const skills = [
     competency: 76.0,
     category: ['Masters'],
   },
-].map((skill) => ({ ...skill, category: skill.category.sort() }));
+].map((grade) => ({ ...grade, category: grade.category.sort() }));
 
 // this is a list of colors that I like. The length should be == to the
 // number of categories. Re-arrange this list until you find a pattern you like.
@@ -136,7 +136,7 @@ const colors = [
 ];
 
 const categories = [
-  ...new Set(skills.reduce((acc, { category }) => acc.concat(category), [])),
+  ...new Set(grades.reduce((acc, { category }) => acc.concat(category), [])),
 ]
   .sort()
   .map((category, index) => ({
@@ -144,4 +144,4 @@ const categories = [
     color: colors[index],
   }));
 
-export { categories, skills };
+export { categories, grades };

@@ -3,6 +3,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
+// Blog Posts
+import ProjectData from './data/projects/project_data';
+import BlogData from './data/blog/blog_data';
+
 const { PUBLIC_URL } = process.env;
 
 // Every route - we lazy load so that each page can be chunked
@@ -12,10 +16,13 @@ const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const Projects = lazy(() => import('./pages/Projects'));
 const Resources = lazy(() => import('./pages/Resources'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
+const Projects = lazy(() => import('./pages/Projects'));
+const ProjectPost = lazy(() => import('./components/ProjectPost/ProjectPost'));
+const Blog = lazy(() => import('./pages/Blog'));
+const BlogPost = lazy(() => import('./components/BlogPost/BlogPost'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -24,10 +31,13 @@ const App = () => (
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
+        <Route path="/blog" component={Blog} />
         <Route path="/resources" component={Resources} />
         <Route path="/stats" component={Stats} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
+        <Route path="/projectsposts/:id" render={(props) => <ProjectPost data={ProjectData} {...props} />} />
+        <Route path="/blogposts/:id" render={(props) => <BlogPost data={BlogData} {...props} />} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>

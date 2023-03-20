@@ -22,7 +22,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>Hi, I am Mun Fai! Mun rhymes with &apos;bun&apos; and Fai as in the Greek letter &Phi;.
       </p>
-      <p>I am currently a MSc in Artificial Intelligence student at Imperial College London.
+      <p>I am a graduate from Imperial and LSE, and am currently based in Singapore.
       </p>
       <ul className="actions">
         <li>

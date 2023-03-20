@@ -28,11 +28,10 @@ const About = () => (
         </div>
       </header>
       <ReactMarkdown
-        source={markdown}
+        children={markdown}
         renderers={{
           Link: LinkRenderer,
         }}
-        escapeHtml={false}
       />
     </article>
   </Main>

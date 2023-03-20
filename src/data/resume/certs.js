@@ -1,4 +1,4 @@
-const courses = [
+const certs = [
   {
     title: 'Deep Learning Specialisation',
     number: '',
@@ -25,4 +25,4 @@ const courses = [
   },
 ];
 
-export default courses;
+export default certs;

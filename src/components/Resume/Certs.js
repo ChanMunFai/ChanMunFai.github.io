@@ -1,26 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Course from './Courses/Certs';
+import Cert from './Courses/Certs';
 
-const getRows = (courses) => courses.sort((a, b) => {
+const getRows = (certs) => certs.sort((a, b) => {
   let ret = 0;
   if (a.university > b.university) ret = -1;
   else if (a.university < b.university) ret = 1;
   // else if (a.number > b.number) ret = 1;
   // else if (a.number < b.number) ret = -1;
   return ret;
-}).map((course, idx) => (
-  <Course
-    data={course}
-    key={course.title}
-    last={idx === courses.length - 1}
+}).map((cert, idx) => (
+  <Cert
+    data={cert}
+    key={cert.title}
+    last={idx === certs.length - 1}
   />
 ));
 
-const Courses = ({ data }) => (
-  <div className="courses">
-    <div className="link-to" id="courses" />
+const Certs = ({ data }) => (
+  <div className="certs">
+    <div className="link-to" id="certs" />
     <div className="title">
       <h3>Certifications</h3>
     </div>
@@ -30,7 +30,7 @@ const Courses = ({ data }) => (
   </div>
 );
 
-Courses.propTypes = {
+Certs.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
     // number: PropTypes.string,
@@ -39,8 +39,8 @@ Courses.propTypes = {
   })),
 };
 
-Courses.defaultProps = {
+Certs.defaultProps = {
   data: [],
 };
 
-export default Courses;
+export default Certs;
