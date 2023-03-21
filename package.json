@@ -8,7 +8,7 @@
     "url": "https://github.com/chanmunfai.github.io.git"
   },
   "engines": {
-    "node": ">=14.x"
+    "node": ">=16.x"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
@@ -26,7 +26,7 @@
     "dayjs": "^1.11.7",
     "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
-    "raw.macro": "^0.7.0",
+    "raw.macro": "^0.6.1",
     "react": "^18.2.0",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
@@ -44,12 +44,6 @@
     "@babel/core": "^7.21.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
-    "eslint": "^8.36.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "sass": "^1.59.3",
     "source-map-explorer": "^2.5.3"
   },
