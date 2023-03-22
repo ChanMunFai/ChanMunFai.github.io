@@ -9,7 +9,6 @@ import BlogData from './data/blog/blog_data';
 
 const { PUBLIC_URL } = process.env;
 
-const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -26,7 +25,6 @@ const App = () => (
     <Suspense fallback={<Main />}>
       <Routes>
         <Route exact path="/" element={<Index/>} />
-        <Route path="/about" element={<About/>} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/resources" element={<Resources/>} />
