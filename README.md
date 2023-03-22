@@ -1,6 +1,6 @@
 # Personal Website
 
-Currently hosted at (https://www.chanmunfai.com)[https://www.chanmunfai.com]
+Currently hosted at [https://www.chanmunfai.com](https://www.chanmunfai.com)
 
 My personal website, based off [mldangelo.com](https://mldangelo.com).
 
