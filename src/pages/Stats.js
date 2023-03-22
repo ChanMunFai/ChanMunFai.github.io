@@ -4,12 +4,11 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Personal from '../components/Stats/Personal';
-import Site from '../components/Stats/Site';
 
 const Stats = () => (
   <Main
     title="Stats"
-    description="Some statistics about Mun Fai and this website"
+    description="Some statistics about me"
   >
     <article className="post" id="stats">
       <header>
@@ -18,7 +17,6 @@ const Stats = () => (
         </div>
       </header>
       <Personal />
-      <Site />
     </article>
   </Main>
 );
