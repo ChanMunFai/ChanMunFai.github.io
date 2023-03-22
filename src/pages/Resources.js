@@ -23,11 +23,10 @@ const Resources = () => (
         </div>
       </header>
       <ReactMarkdown
-        source={markdown}
+        children={markdown}
         components={{
           Link: LinkRenderer,
         }}
-        escapeHtml={false}
       />
     </article>
   </Main>
