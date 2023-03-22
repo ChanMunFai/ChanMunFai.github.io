@@ -24,7 +24,7 @@ const Resources = () => (
       </header>
       <ReactMarkdown
         source={markdown}
-        renderers={{
+        components={{
           Link: LinkRenderer,
         }}
         escapeHtml={false}

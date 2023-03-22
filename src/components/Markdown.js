@@ -10,7 +10,7 @@ const _mapProps = (props) => ({
   plugins: [
     RemarkMathPlugin
   ],
-  renderers: {
+  components: {
     ...props.renderers,
     math: ({ value }) => <BlockMath>{value}</BlockMath>,
     inlineMath: ({ value }) => <InlineMath>{value}</InlineMath>
