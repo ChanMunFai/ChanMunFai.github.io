@@ -20,7 +20,7 @@ const grades = [
     category: ['Bachelors'],
   },
   {
-    title: 'EC333 Problems of Applied Econometrics',
+    title: 'EC333 Applied Econometrics',
     competency: 66,
     category: ['Bachelors'],
   },
@@ -40,7 +40,7 @@ const grades = [
     category: ['Bachelors'],
   },
   {
-    title: 'ST202 Probability, Distribution Theory and Inference',
+    title: 'ST202 Probability',
     competency: 79,
     category: ['Bachelors'],
   },
@@ -95,7 +95,7 @@ const grades = [
     category: ['Masters'],
   },
   {
-    title: 'Software Engineering Practice and Group Project',
+    title: 'Group Project',
     competency: 76.78,
     category: ['Masters'],
   },
@@ -119,6 +119,8 @@ const grades = [
 // this is a list of colors that I like. The length should be == to the
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
+  '#00c9a8',
+  '#E147FF',
   '#F88379',
   '#bf40bf',
   '#30D5C8',
