@@ -16,14 +16,21 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p> Nice to meet you. Please feel free to read more <Link to="/about">about me</Link>,
-        or check out my {' '}
+      <p> 
+        Nice to meet you!
+        I am a recent graduate and have a Masters in Artificial Intelligence 
+        and Bachelors in Economics. I am joining the public service in future, 
+        and hope to explore how data and tech can improve society. 
+      </p>
+      <p>
+        Please feel free to check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
+        <Link to="/blog">blog posts</Link>, {' '}
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p>Credits for the website design go to <a href="https://github.com/mldangelo/personal-site/"> Michael D Angelo.</a></p>
+      <p>Acknowledgements: <a href="https://github.com/mldangelo/personal-site/"> Michael D Angelo.</a></p>
     </article>
   </Main>
 );
