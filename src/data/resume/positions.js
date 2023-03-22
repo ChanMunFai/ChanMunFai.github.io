@@ -1,5 +1,13 @@
 const positions = [
   {
+    company: 'Singapore Armed Forces',
+    position: 'Deputy Manpower Officer (Lieutenant)',
+    daterange: 'October 2022 - March 2023',
+    points: [
+      'Responsible for all manpower matters in a battalion of 500 people',
+    ],
+  },
+  {
     company: 'London School of Economics and Political Science(LSE)',
     position: 'Research Assistant',
     daterange: 'January 2021 - September 2021',
